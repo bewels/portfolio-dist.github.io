@@ -3,6 +3,7 @@ function verticalSlider () {
           sliderWrap = document.querySelector('.slider-wrapper'),
           slides = document.querySelectorAll('.slider-item'),
           slideTabs = document.querySelectorAll('.slide-tabs-item'),
+          slideTabsB = document.querySelectorAll('.slide-tabs-item-b'),
           height = parseInt(window.getComputedStyle(sliderWrap).height);
     let   scrollCord = 0;
 
@@ -33,6 +34,7 @@ function verticalSlider () {
             sliderCarusel.style.transform = `translateY(-${height * i}px)`;
         });
     });
+
 
     function showTabsActive (i) {
         i = i > 0 ? i : i * -1; 

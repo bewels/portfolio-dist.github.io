@@ -8,4 +8,7 @@
 
 ### Спасибо!
 
+[Ссылка на страницу](https://bewels.github.io/portfolio-dist.github.io/dist/)
+
+
 [Мой вк](https://vk.com/bewels)
